@@ -1,4 +1,65 @@
-.container { max-width: 300px; magin: 20px auto; padding: 10px;}
-        nav ul {
-            list-style: none;
-        }
+
+body {
+    margin: 0;
+    font-family:sans-serif;
+      font-weight: 500;
+     font-style: normal;
+}
+/* 전체화면 */
+.container { 
+    display:flex;
+    flex-direction:column;
+    max-width: 300px; 
+     padding: 10px;
+}
+
+.menu {
+    margin-bottom: 300px;
+}
+
+.menu  a {
+    display: block;
+    font-size: 27px;
+    margin:15px;
+}
+
+.genre-list a {
+    color: #e5e5e9ec;
+    font-size: 24px;
+}
+
+.sidebar { 
+    width: 350px;
+    height: 100vh;
+    background-color: #24224b;
+    color: rgb(245, 242, 245);
+    border-radius: 20px 20px 0 0;
+    padding: 15px 0;
+}
+
+.sidebar a {
+    color: rgb(245, 242, 245);
+    text-decoration: none;
+}
+
+.genre-menu {
+
+}
+
+
+
+.sidebar-text {
+
+}
+
+
+
+div {
+    font-size: 16px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
