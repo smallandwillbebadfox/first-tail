@@ -8,9 +8,8 @@ body {
 /* 전체화면 */
 .container { 
     display:flex;
-    flex-direction:column;
-    max-width: 300px; 
-     padding: 10px;
+    flex-direction:row;
+    min-height: 100vh;
 }
 
 .menu {
@@ -31,7 +30,7 @@ body {
 .sidebar { 
     width: 350px;
     height: 100vh;
-    background-color: #24224b;
+    background-color: #2a2847;
     color: rgb(245, 242, 245);
     border-radius: 20px 20px 0 0;
     padding: 15px 0;
