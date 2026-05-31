@@ -12,6 +12,15 @@ body {
     min-height: 100vh;
 }
 
+/* 메뉴창 */
+.logo {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 40px 0px;
+}
+
 .menu {
     margin-bottom: 300px;
 }
@@ -19,7 +28,41 @@ body {
 .menu  a {
     display: block;
     font-size: 27px;
-    margin:15px;
+    margin: 10px 15px;
+    padding: 12px 20px;
+    
+}
+
+/* 체크박스 */
+#genre-toggle {
+    display: none;
+}
+
+.genre {
+    display: block;
+    font-size: 27px;
+    padding: 12px 20px;
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+/* 장르하위 */
+.genre-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 20px;
+}
+
+#genre-toggle:checked ~ .genre-list {
+    max-height: 300px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #3F4366;
+    padding: 12px 23px;
+    border-radius: 10px;
 }
 
 .genre-list a {
@@ -30,7 +73,7 @@ body {
 .sidebar { 
     width: 350px;
     height: 100vh;
-    background-color: #2a2847;
+    background-color: #171A3A;
     color: rgb(245, 242, 245);
     border-radius: 20px 20px 0 0;
     padding: 15px 0;
@@ -48,7 +91,9 @@ body {
 
 
 .sidebar-text {
-
+    font-size: 22px;
+    padding: 0 40px;
+    color: #c5c5c5;
 }
 
 
@@ -60,5 +105,6 @@ div {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 

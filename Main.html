@@ -14,32 +14,34 @@
     <!-- 사이드바 -->
     <div class="container">
         <aside class="sidebar">
-            <nav>
-                <a class="logo" href="#" >Game Picks</a>
+            <nav class="menu_area">
+                <a class="logo" href="main_home.html" target="content-frame" >Game Picks</a>
                 <ul class="menu">
                     <li><a href="#" target="content-frame">게임 목록</a></li>
                     <!-- 장르세부 -->
-                    <li class="genre-menu"><a href="#">장르별 탐색</a>
-                        <ul class="genre-list">
-                            <li><a href="#" target="content-frame">액션</a></li>
-                            <li><a href="#" target="content-frame">어드벤쳐</a></li>
-                            <li><a href="#" target="content-frame">RPG</a></li>
-                            <li><a href="#" target="content-frame">시뮬레이션</a></li>
-                            <li><a href="#" target="content-frame">퍼즐</a></li>
-                            <li><a href="#" target="content-frame">전략</a></li>
-                        </ul>
+                    <li class="genre-menu">
+                        <!-- 하위 목록 토글 -->
+                        <input type="checkbox"  id="genre-toggle">                        
+                        <label for="genre-toggle" class="genre">장르별 탐색</label>
+                            <ul class="genre-list">
+                                <li><a href="#" target="content-frame">장르1</a></li>
+                                <li><a href="#" target="content-frame">장르2</a></li>
+                                <li><a href="#" target="content-frame">장르3</a></li>
+                                <li><a href="#" target="content-frame">장르4</a></li>
+                                <li><a href="#" target="content-frame">장르5</a></li>
+                            </ul>
                     </li>
                     <li><a href="#"  target="content-frame">추천 게임</a></li>
                     <li><a href="#" target="content-frame">소개</a></li>
                 </ul>
             </nav>
-            <p class="sidebar-text">게임을 사랑하는 당신을 위한 공간</p>
+            <p class="sidebar-text">게임을 사랑하는 <br>당신을 위한 공간</p>
         </aside>
 
         <!-- 게임 카드 목록 -->
 
         <main class="content">
-            <iframe name="content-frame" src="#" frameborder="0"></iframe>
+            <iframe name="content-frame" src="main_home.html" frameborder="0"></iframe>
         </main>
 
 
