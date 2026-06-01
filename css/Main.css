@@ -4,6 +4,7 @@ body {
     font-family:sans-serif;
       font-weight: 500;
      font-style: normal;
+     background-color: rgb(255, 253, 248);
 }
 /* 전체화면 */
 .container { 
@@ -50,7 +51,7 @@ body {
 .genre-list {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    transition: max-height  0.5s ease;
     padding-left: 20px;
 }
 
@@ -84,12 +85,6 @@ body {
     text-decoration: none;
 }
 
-.genre-menu {
-
-}
-
-
-
 .sidebar-text {
     font-size: 22px;
     padding: 0 40px;
@@ -100,11 +95,23 @@ body {
 
 div {
     font-size: 16px;
-
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+}
+
+/* 콘텐츠 프레임 */
+.content {
+    flex: 1;
+}
+
+.content iframe {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    border: none;
+    width: 100vh;
 }
 
