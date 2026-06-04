@@ -56,7 +56,7 @@ body {
 }
 
 #genre-toggle:checked ~ .genre-list {
-    max-height: 400px;
+    max-height: 430px;
 }
 
 .menu a:hover {
