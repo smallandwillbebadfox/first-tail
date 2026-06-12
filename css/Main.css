@@ -81,6 +81,10 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+<<<<<<< HEAD
+=======
+    overflow: auto;
+>>>>>>> 2fb9b970fa251c9c8eb4248719a353b212830851
 }
 
 .menu_area {
