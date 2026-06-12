@@ -15,6 +15,10 @@ h1 {
     margin-bottom: 30px;
 }
 
+p {
+    font-weight: 600;
+}
+
 .sub-image {
     width: 100%;
     max-width: 900px;
