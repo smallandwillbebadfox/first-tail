@@ -114,3 +114,44 @@ li {
 .back:hover {
     transform: scale(1.02)  translateY(-1px);
 }
+
+/* 반응형 */
+
+/* 모바일 */
+@media screen and (max-width: 767px) {
+    .developer {
+        margin-bottom: 20px;
+    }
+
+    .source {
+        margin-top: 20px;
+    }
+
+    .button-group {
+    margin: 0 auto;
+    }
+
+    h2 {
+    margin-bottom: 0;
+    }
+
+    section p {
+        line-height: 1.6;
+    }
+
+    ul {
+        padding-left: 30px;
+    }
+
+    li {
+        margin-bottom: 5px;
+        line-height: 1.8;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
