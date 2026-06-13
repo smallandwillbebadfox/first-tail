@@ -123,3 +123,43 @@ nav ul {
     border: none;
     display: block;
 }
+
+/* 반응형 */
+
+/* 모바일 */
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+    .menu {
+        margin-bottom: 130px;
+        margin-left: 60vw;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .game-list {
+        position: absolute;
+        top: 120px;
+        
+    }
+
+    .genre {
+        position: absolute;
+        top: 175px;
+    }
+
+    .genre-list {
+        position: relative;
+        top: 70px;
+    }
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
