@@ -125,31 +125,37 @@ a {
 .action {
     background-image: url(../assets/img/death_stranding.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .roguelike {
     background-image: url(../assets/img/isaac01.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .survival {
     background-image: url(../assets/img/subnautica01.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .rpg {
     background-image: url(../assets/img/Baldurs.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .shooting {
     background-image: url(../assets/img/farcry.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .other {
     background-image: url(../assets/img/hollow.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .genre-card:hover {
