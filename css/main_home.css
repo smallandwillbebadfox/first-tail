@@ -16,9 +16,7 @@ a {
     color: inherit;
 }
 
-/* =========================
-   배너
-========================= */
+/* 배너 */
 
 .banner {
     width: 100%;
@@ -80,9 +78,7 @@ a {
     transform: translateY(-2px);
 }
 
-/* =========================
-   공통 섹션
-========================= */
+/* 공통 섹션 */
 
 .genre-section,
 .about-section {
@@ -95,9 +91,7 @@ a {
     margin-bottom: 25px;
 }
 
-/* =========================
-   장르 카드
-========================= */
+/* 장르 카드 */
 
 .genre-grid {
     display: grid;
@@ -146,9 +140,7 @@ a {
     font-weight: 700;
 }
 
-/* =========================
-   소개 영역
-========================= */
+/* 소개 영역 */
 
 .about-grid {
     display: grid;
@@ -180,9 +172,7 @@ a {
     font-size: 0.95rem;
 }
 
-/* =========================
-   푸터
-========================= */
+/* 발바닥! */
 
 footer {
     text-align: center;
@@ -194,31 +184,9 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-/* =========================
-   태블릿
-========================= */
+/* 반응형 */
 
-@media (max-width: 1024px) {
-
-    .banner {
-        min-height: 320px;
-        padding: 40px;
-    }
-
-    .banner_text h1 {
-        font-size: 2.3rem;
-    }
-
-    .genre-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-}
-
-/* =========================
-   모바일
-========================= */
-
+/* 모바일 */
 @media (max-width: 768px) {
 
     body {
@@ -253,22 +221,21 @@ footer {
     }
 }
 
-/* =========================
-   초소형 모바일
-========================= */
-
-@media (max-width: 480px) {
+/* 태블릿 */
+@media (max-width: 1024px) {
 
     .banner {
-        min-height: 220px;
-        padding: 20px;
+        min-height: 320px;
+        padding: 40px;
     }
 
     .banner_text h1 {
-        font-size: 1.5rem;
+        font-size: 2.3rem;
     }
 
-    .banner_text p {
-        display: none;
+    .genre-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
     }
 }
+
