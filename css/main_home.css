@@ -223,6 +223,17 @@ footer {
     border-top: 1px solid #ddd;
 }
 
+/* 장르 카드 글씨 기본 흰색 */
+.genre-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* other 카드만 검은색 */
+.other h3 {
+    color: black;
+}
 /* 반응형 */
 
 /* 모바일 */
