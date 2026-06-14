@@ -29,13 +29,14 @@ a {
             rgba(0,0,0,.45),
             rgba(0,0,0,.45)
         ),
-        url("../images/banner.jpg");
+        url("../assets/img/main_banner.jpg");
 
     background-size: cover;
-    background-position: center;
+    background-position: center top;
 
     display: flex;
     align-items: center;
+    background-position: center top;
 
     padding: 60px;
     margin-bottom: 60px;
@@ -89,6 +90,7 @@ a {
 .genre-section h2,
 .about-section h2 {
     margin-bottom: 25px;
+    margin-left:20px ;
 }
 
 /* 장르 카드 */
@@ -117,6 +119,37 @@ a {
         0 4px 15px rgba(0,0,0,.08);
 
     transition: 0.3s;
+}
+
+/* 장르 카드 배경 */
+.action {
+    background-image: url(../assets/img/death_stranding.jpg);
+    background-position: center;
+}
+
+.roguelike {
+    background-image: url(../assets/img/isaac01.jpg);
+    background-position: center;
+}
+
+.survival {
+    background-image: url(../assets/img/subnautica01.jpg);
+    background-position: center;
+}
+
+.rpg {
+    background-image: url(../assets/img/Baldurs.jpg);
+    background-position: center;
+}
+
+.shooting {
+    background-image: url(../assets/img/farcry.jpg);
+    background-position: center;
+}
+
+.other {
+    background-image: url(../assets/img/hollow.jpg);
+    background-position: center;
 }
 
 .genre-card:hover {
