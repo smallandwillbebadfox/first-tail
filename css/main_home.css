@@ -126,36 +126,48 @@ a {
     background-image: url(../assets/img/death_stranding.jpg);
     background-position: center;
     background-size: cover;
+    color: #ddd;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .roguelike {
     background-image: url(../assets/img/isaac01.jpg);
     background-position: center;
     background-size: cover;
+    color: #ddd;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .survival {
     background-image: url(../assets/img/subnautica01.jpg);
     background-position: center;
     background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .rpg {
     background-image: url(../assets/img/Baldurs.jpg);
     background-position: center;
     background-size: cover;
+    color: #ddd;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .shooting {
     background-image: url(../assets/img/farcry.jpg);
     background-position: center;
     background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .other {
     background-image: url(../assets/img/hollow.jpg);
     background-position: center;
     background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .genre-card:hover {
@@ -223,17 +235,6 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-/* 장르 카드 글씨 기본 흰색 */
-.genre-card h3 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: white;
-}
-
-/* other 카드만 검은색 */
-.other h3 {
-    color: black;
-}
 /* 반응형 */
 
 /* 모바일 */
